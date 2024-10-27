@@ -1,1 +1,60 @@
+*,
+*::before,
+*::after {
+  /* box content bleibt in der box */
+  box-sizing: border-box;
+}
+
+* {
+  /* hält Schrift einheitlich*/
+  margin: 0;
+}
+
+body {
+  /* bessere Größe als 1.2*/
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  /* keeps img from overflowing*/
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  /* fonts werden übernommen*/
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* wort trennung; block*/
+  overflow-wrap: break-word;
+}
+
+p {
+  /* visual balance*/
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
 
