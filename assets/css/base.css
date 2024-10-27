@@ -1,1 +1,15 @@
+/*css base*/
 
+body {
+  font: georgia, serif;
+  font-size: normal;
+  height: 100%;
+  background: cornsilk;
+  color: black;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
