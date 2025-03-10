@@ -7,8 +7,8 @@ index.js
     box-sizing: border-box;
   }
   body {
-    font-family: 'Arial', sans-serif;
-    background-color: #5c727a0e;
+    font-family:  Geneva, Verdana, sans-serif;
+    background-color: #47bb730e;
     color: #101010;
     padding: 20px;
   }
@@ -16,16 +16,25 @@ index.js
     text-align: center;
     margin-bottom: 40px;
   }
-  h1 {
-    font-size: 2.5em;
-    color: #0E4B95;
-  }
-  h3 {
-    font-size: 1.4em;
-    color: #7488E2;
-  }
   main {
     text-align: center;
+  }
+  h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #0a5c07;
+    background-color: #80f0a5;
+    border-radius: 5px;
+  }
+  h2 {
+    text-align: center;
+    font-size: 1.7em;
+    color: #0a5c07;
+  }
+  h3 {
+    text-align: center;
+    font-size: 1.2em;
+    color: #0a5c07;
   }
   h4 {
     font-size: 1.6em;
@@ -37,7 +46,7 @@ index.js
     padding: 0;
   }
   .links-box {
-    background-color: #64B4DA;
+    background-color: #88d486;
     padding: 20px;
     margin: 20px 0;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -66,5 +75,5 @@ index.js
     transition: color 0.3s ease;
   }
   ul li a:hover {
-    color: #8CBAE2;
+    color: #80f0a5;
   }
