@@ -23,7 +23,7 @@ index.js
     text-align: center;
     font-size: 2.5em;
     color: #0a5c07;
-    background-color: #80f0a5;
+    background-color: #5ece84;
     border-radius: 5px;
   }
   h2 {
@@ -36,12 +36,7 @@ index.js
     font-size: 1.2em;
     color: #0a5c07;
   }
-  h4 {
-    font-size: 1.6em;
-    margin-bottom: 20px;
-    text-decoration: underline;
-  }
-  li a {
+  li a  {
     text-decoration: none;
     color: #12610f;
     font-size: 1.0em;
@@ -77,16 +72,23 @@ index.js
     color: #FF4500;
     text-decoration: underline;
   }
-  ul li {
-    margin: 10px 0;
-  }
   ul li a {
     text-decoration: none;
     color: #187514;
     font-size: 1.2em;
     font-weight: 600;
     transition: color 0.4s ease;
+    margin: 10px 0;
   }
   ul li a:hover {
     color: #5dc23e;
-  }
+     }
+     
+ footer{
+    text-align: center;
+    font-size: small;
+    color:  #5ece84;
+    background-color: #0a5c07;
+    border-radius: 5px;
+    margin-top: 60px;
+    }

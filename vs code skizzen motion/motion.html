@@ -3,7 +3,7 @@
 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>physical computing</title>
+	<title>motion</title>
 	<link rel="stylesheet" href="../../assets/css/style.css"></link>
 	
 
@@ -37,6 +37,12 @@
              text-align: center;
 			 font-size: 1.4;
 		}
+		li a {
+             text-decoration: none;
+             color: #12610f;
+             font-size: 1.0em;
+            transition: color 0.3s ease;
+        }
 		img{
 			max-width: 80%;
 			padding: 30px;
@@ -49,16 +55,50 @@
 			padding: 10px;
 		}
 
-		p div{
-			font-family:  Geneva, Verdana, sans-serif;
-            color: #101010;
-			text-align: center;
-			font-size: 1.1;
-            padding: 20px;
-			/*padding-left: 40px;
-			padding-right: 40px;*/
-			margin: auto;
-		}
+   p{
+    font-family:  Geneva, Verdana, sans-serif;
+    padding: 20px;
+    margin: auto;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    
+  }
+  .links-box {
+    background-color: #88d486;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  .links-box ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .links-box ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  .links-box ul li a:hover {
+    color: #FF4500;
+    text-decoration: underline;
+  }
+  ul li {
+    margin: 10px 0;
+  }
+  ul li a {
+    text-decoration: none;
+    color: #187514;
+    font-size: 1.2em;
+    font-weight: 400;
+    transition: color 0.4s ease;
+  }
+  ul li a:hover {
+    color: #5dc23e;
+     }
+
 	</style>
 </head>
 
@@ -71,7 +111,7 @@
 	
 				
 			<header>
-				<h2>physical computing</h2>
+				<h2>Motion</h2>
 			</header>
 
 		<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut 
@@ -80,18 +120,22 @@
 		    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt 
 		</p>
 		
+		<section>
+			<h3>Motion</h3>
 	
-			
+			<ul>
+			  <li><a href="../vs code skizzen motion\motion-downward\index.html">downward</a></li>
+			  <li><a href="../vs code skizzen motion\motion-forward\index.html">forward</a></li>
+			  <li><a href="../vs code skizzen motion\motion-in a line\index.html">in a line</a></li>
+			  <li><a href="../vs code skizzen motion\motion-past-each-other\index.html">past each other</a></li>
+			  <li><a href="../vs code skizzen motion\motion-side-to-side\index.html">side to side</a></li>
+			</ul>
+		  </section>
+		
+
+
 	
-		<div class="image-container">
-			<div><img src="../assets/images/filivacat-1.jpeg">final</img></div>
-	        <div><img src="../assets/images/filivacat-2.jpeg">final</img></div>
-        	<div><img src="../assets/images/filivacat-3.jpeg">Steckboard</img></div>
-    		<div><img src="../assets/images/filivacat-4.jpeg">im Prozess</img></div>
-    		<div><img src="../assets/images/filivacat-5.jpeg">im Prozess</img></div>
-    		<div><img src="../assets/images/filivacat-film-1.mp4">filivacat Video</img></div>
-        	<div><img src="../assets/images/filivacat-film-2.mp4">filivacat Video</img></div>
-		</div>
+		
 	
 	  </main>
 	</body>
