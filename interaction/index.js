@@ -1,42 +1,56 @@
 
+let isBlinking = false;
+let eyeHeight = 60;
+let blinkTimer = 0;
+
 function setup() {
     colorMode(HSL, 360, 100, 100, 100);
-    createCanvas(800, 800);
+    createCanvas(600, 600);
     background(150, 100, 20, 30);
-  
-    //ist nur bennenung der Koordinaten,für übersicht//jetzt bewegt es sich mit der canvas
-    const x = (n) => width * n;
-    const y = (n) => height * n;
-    const w = (n) => width * n;
-    const h = (n) => height * n;
-  
+}
+
+function draw() {
+    background(150, 100, 20, 30);
+
+    // Augen blinzeln 
+    if (isBlinking) {
+        eyeHeight -= 5;  
+        if (eyeHeight <= 5) {
+            isBlinking = false; 
+            setTimeout(() => {
+                eyeHeight = 60; 
+            }, 200);
+        }
+    }
+
     rectMode(CENTER);
-  
-    //linkes augenlid
+
+    // Augenlider
     noStroke();
     fill(200, 20, 80, 100);
     circle(300, 400, 80);
-  
-    //rechtes augenlid
-    noStroke();
     circle(500, 400, 80);
-  
-    //linkes auge
+
+    // Augen
     noStroke();
     fill(200, 0, 100, 100);
-    ellipse(300, 400, 80, 60);
-  
-    //rechtes auge
-    noStroke();
-    ellipse(500, 400, 80, 60);
-  
-    //linkes auge pupille
-    noStroke();
-    fill(0, 0, 0, 100);
-    circle(300, 400, 10);
-  
-    //rechtes auge pupille
-    noStroke();
-    fill(0, 0, 0, 100);
-    circle(500, 400, 10);
-  }
+    ellipse(300, 400, 80, eyeHeight);
+    ellipse(500, 400, 80, eyeHeight);
+
+    // Pupillen
+    if (eyeHeight > 10) { 
+        fill(0, 0, 0, 100);
+        circle(300, 400, 10);
+        circle(500, 400, 10);
+    }
+}
+
+function mousePressed() {
+    
+    let d1 = dist(mouseX, mouseY, 300, 400);
+    let d2 = dist(mouseX, mouseY, 500, 400);
+
+    if (d1 < 40 || d2 < 40) {
+        isBlinking = true;
+    }
+}
