@@ -69,10 +69,7 @@ index.js
     font-weight: bold;
     transition: color 0.3s ease;
   }
-  .links-box ul li a:hover {
-    color: #FF4500;
-    text-decoration: underline;
-  }
+  
   ul li a {
     text-decoration: none;
     color: #187514;
