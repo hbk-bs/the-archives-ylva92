@@ -35,6 +35,7 @@ index.js
     text-align: center;
     font-size: 1.2em;
     color: #0a5c07;
+    text-decoration: underline;
   }
   li a  {
     text-decoration: none;

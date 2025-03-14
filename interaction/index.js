@@ -4,6 +4,7 @@ let eyeHeight = 60;
 let textSizeValue = 24;
 let textColor = [0, 0, 0]; 
 
+
 function setup() {
     colorMode(HSL, 360, 100, 100, 100);
     createCanvas(800, 800);
