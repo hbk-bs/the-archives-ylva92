@@ -26,11 +26,6 @@ index.js
     background-color: #5ece84;
     border-radius: 5px;
   }
-  h2 {
-    text-align: center;
-    font-size: 1.7em;
-    color: #0a5c07;
-  }
   h3 {
     text-align: center;
     font-size: 1.2em;
@@ -53,21 +48,9 @@ index.js
     padding: 0;
     
   }
-  .links-box {
-    background-color: #88d486;
-    padding: 20px;
-    margin: 20px 0;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  }
   .links-box ul {
     list-style-type: none;
     padding: 0;
-  }
-  .links-box ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    transition: color 0.3s ease;
   }
   article{
     color: rgba(255, 255, 255, 0);
