@@ -69,7 +69,10 @@ index.js
     font-weight: bold;
     transition: color 0.3s ease;
   }
-  
+  article{
+    color: rgba(255, 255, 255, 0);
+  }
+
   ul li a {
     text-decoration: none;
     color: #187514;
@@ -85,8 +88,8 @@ index.js
  footer{
     text-align: center;
     font-size: small;
-    color:  #5ece84;
-    background-color: #0a5c07;
+    color: #0a5c07 ;
+    background-color: #5ece84;
     border-radius: 5px;
     margin-top: 60px;
     }
